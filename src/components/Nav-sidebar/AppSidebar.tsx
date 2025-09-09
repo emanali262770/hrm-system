@@ -40,6 +40,7 @@ useEffect(()=>{
     <aside className="w-64 min-h-screen  bg-[#0A0A23] text-white flex flex-col justify-between shadow-xl">
       {/* Top Section */}
       <div className="">Hello</div>
+      <h1>rtyutrurturt</h1>
       <div>
         <div className="px-6 py-6 text-2xl font-bold tracking-widest border-b border-[#1F1F3B]">
           HRM
