@@ -37,7 +37,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center ">
+    <div className="min-h-screen bg-[#F5F5F5] px-6 py-4 flex justify-center ">
       <form
         onSubmit={handleSubmit}
         className="bg-white shadow-md rounded-lg p-6 w-full max-w-7xl"

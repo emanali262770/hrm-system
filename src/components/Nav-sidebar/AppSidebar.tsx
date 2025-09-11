@@ -31,8 +31,9 @@ const AppSidebar = () => {
     <aside className="w-64 min-h-screen bg-[#0A0A23] text-white flex flex-col justify-between shadow-xl rounded-tr-3xl rounded-br-3xl">
       <div className="px-4">
         {/* HRM Header */}
-        <div className="px-2 py-5 text-2xl font-bold tracking-widest border-b border-[#1F1F3B] mt-4">
-          HRM
+        <div className="px-2 py-5 text-2xl font-bold cursor-pointer tracking-widest border-b border-[#1F1F3B] mt-4">
+          <Link href={'/dashboard'}>HRM</Link>
+         
         </div>
 
         {/* Search */}
