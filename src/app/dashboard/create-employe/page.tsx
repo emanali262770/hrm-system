@@ -22,7 +22,7 @@ export default function Home() {
     joiningDate: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value, files } = e.target;
     setFormData({
       ...formData,
@@ -30,7 +30,7 @@ export default function Home() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
     alert("Form Submitted! Check console for data.");
