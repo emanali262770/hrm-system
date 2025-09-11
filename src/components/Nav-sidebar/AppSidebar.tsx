@@ -11,8 +11,8 @@ const menuItems = [
     icon: Users, 
     url: '#',
     children: [
-      { label: 'Create Employee', url: '/employees/add' },
-      { label: 'Employee List', url: '/employees/list' },
+      { label: 'Create Employee', url: '/dashboard/create-employe' },
+      { label: 'Employee List', url: '/dashboard/employelist' },
       { label: 'Attendance', url: '/employees/attendance' },
     ]
   },
