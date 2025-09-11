@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import * as Select from "@radix-ui/react-select";
 import { Check, ChevronDown } from "lucide-react";
+import { useRouter } from "next/navigation";
+
 const page = () => {
+  const router=useRouter()
   const users = [
     {
       id: "3",
@@ -118,7 +120,10 @@ const page = () => {
       phone: "03427280782",
     },
   ];
+function handleNavigateToEdit() {
 
+router.push('/dashboard/edit/profile')
+}
   return (
     <div className="flex flex-col bg-[#F5F5F5] px-6 py-4 min-h-screen">
       <h1 className="text-3xl font-semibold text-gray-800 mb-6 text-left">
@@ -226,7 +231,7 @@ const page = () => {
                   </td>
 
                   <td className="px-4 py-3 border border-blue-700">
-                    <button className="bg-blue-900 hover:bg-indigo-600 text-white text-sm px-4 py-1.5 rounded-lg shadow transition">
+                    <button onClick={handleNavigateToEdit} className="bg-blue-900 hover:bg-indigo-600 text-white text-sm px-4 py-1.5 rounded-lg shadow transition">
                       Edit
                     </button>
                   </td>
