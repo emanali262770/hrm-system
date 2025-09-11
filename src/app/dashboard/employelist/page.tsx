@@ -126,7 +126,7 @@ const page = () => {
       </h1>
 
       <div className="overflow-x-auto">
-        <div className="w-full rounded-2xl  border-gray-200 shadow-lg p-6">
+        <div className="w-full   border-gray-200 shadow-lg p-6">
           <table className="w-full border-collapse rounded-lg">
             <thead>
               <tr className="bg-[#0A0A23] text-white">
