@@ -9,7 +9,6 @@ export default function Home() {
     fatherName: "",
     cnic: "",
     dob: "",
-   
     gender: "",
     image: null,
     contact: "",
@@ -61,7 +60,7 @@ export default function Home() {
           >
             <option>Mr.</option>
             <option>Ms.</option>
-            <option>Mrs.</option>
+            <option>Mrss.</option>
           </select>
           <input
             name="fullName"
